@@ -69,7 +69,7 @@ Returns a list of team definitions for every team in the league.
 
 **`lineup`**: IDs of the players on the team's fielded roster.
 
-**`rotation`**: Unknown
+**`rotation`**: IDs of the team's starting pitchers.
 
 **`bullpen`**: IDs of the players in the team's bullpen.
 
