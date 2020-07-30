@@ -1,6 +1,6 @@
 # Players 
 
-Returns individual player stats for a given player id.
+Returns individual player stats for a given player ID. More IDs can be added, separated by commas, to get stats for more than one player.
 
 ## Endpoint
 
