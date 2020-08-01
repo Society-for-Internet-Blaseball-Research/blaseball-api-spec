@@ -1,6 +1,6 @@
 # Subleague Details
 
-Returns informatio for a given subleague ID. Limited to a single subleague ID.
+Returns information for a given subleague ID. Limited to a single subleague ID.
 
 ## Endpoint
 
