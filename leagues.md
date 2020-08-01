@@ -1,6 +1,6 @@
 # League Details
 
-Description
+Each league and its member subleagues.
 
 ## Endpoint
 
@@ -24,7 +24,7 @@ Description
 
 ## Field Descriptions
 
-**`subleagues`**: The IDs of the divisions that belong to the league.
+**`subleagues`**: The IDs of the subleagues that belong to the league.
 
 **`name`**: The name of the league.
 

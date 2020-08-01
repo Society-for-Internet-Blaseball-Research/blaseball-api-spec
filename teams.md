@@ -1,6 +1,6 @@
 # Team Details
 
-Description
+Returns limited stats, player IDs, and other information for a given team ID. Limited to a single team ID.
 
 ## Endpoint
 
