@@ -26,6 +26,7 @@ Returns individual player stats for a given player ID. More IDs can be added, se
         "moxie": 0.9930963701536112,
         "musclitude": 0.5244697447949057,
         "name": "Cory Ross",
+        "bat": "",
         "omniscience": 0.40240204027262094,
         "overpowerment": 0.588492025671367,
         "patheticism": 0.7852546298408897,
@@ -34,13 +35,16 @@ Returns individual player stats for a given player ID. More IDs can be added, se
         "suppression": 0.7581323899020682,
         "tenaciousness": 0.5321892387925751,
         "thwackability": 0.1337877991334099,
-        "tragicness": 0,
+        "tragicness": 0.1,
         "unthwackability": 0.46406385877539,
         "watchfulness": 0.6211609170901324,
         "pressurization": 0.19961729034104736,
         "totalFingers": 10,
         "soul": 6,
-        "deceased": false
+        "deceased": false,
+        "peanutAllergy": true,
+        "cinnamon": 0.30903546718079355,
+        "fate": 32
     }
 ]
 ```
@@ -75,6 +79,8 @@ Returns individual player stats for a given player ID. More IDs can be added, se
 
 **`name`**: The player's name.
 
+**`bat`**: The name of the player's bat, if any. (Added in Season 3)
+
 **`omniscience`**: Unknown
 
 **`overpowerment`**: Unknown
@@ -104,3 +110,9 @@ Returns individual player stats for a given player ID. More IDs can be added, se
 **`soul`**: Unknown
 
 **`deceased`**: Whether the player is dead or not.
+
+**`peanutAllergy`**: Whether or not this player has a peanut allergy. (Added in Season 3)
+
+**`cinnamon`**: Unknown (Added in Season 3)
+
+**`fate`**: Unknown (Added in Season 3)
