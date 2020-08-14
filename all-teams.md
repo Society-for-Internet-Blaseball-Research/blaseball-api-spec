@@ -75,9 +75,9 @@ Returns a list of team definitions for every team in the league.
 
 **`bench`**: IDs of the players on the team's roster, but are not available in a game.
 
-**`seasonAttributes`**: Unknown
+**`seasonAttributes`**: The IDs of attributes assigned to the team for this season.
 
-**`permanentAttributes`**: Unknown
+**`permanentAttributes`**: The IDs of attributes assigned to the team permanently.
 
 **`fullName`**: The full name (location + nickname) of the team.
 

@@ -95,14 +95,14 @@ Returns limited stats, player IDs, and other information for a given team ID. Li
 
 **`slogan`**: The team's slogan.
 
-**`shameRuns`**: ?
+**`shameRuns`**: The number of runs the team has given up while shamed. To be possibly used if Enhanced Shame is decreed.
 
-**`totalShames`**: ?
+**`totalShames`**: The number of times the team has been shamed across all seasons.
 
-**`totalShamings`**: ?
+**`totalShamings`**: The number of times the team has shamed another team across all seasons.
 
-**`seasonShames`**: ?
+**`seasonShames`**: The number of times the team has been shamed this season.
 
-**`seasonShamings`**: ?
+**`seasonShamings`**: The number of times the team has shamed another team across this season.
 
-**`championships`**: ?
+**`championships`**: The number of seasons the team has won.
