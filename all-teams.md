@@ -46,7 +46,7 @@ Returns a list of team definitions for every team in the league.
     ],
     "seasonAttributes": [],
     "permanentAttributes": [],
-    "_id": "979aee4a-6d80-4863-bf1c-ee1a78e06024",
+    "id": "979aee4a-6d80-4863-bf1c-ee1a78e06024",
     "fullName": "Hawaii Fridays",
     "location": "Hawaii",
     "mainColor": "#3ee652",

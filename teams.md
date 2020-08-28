@@ -46,7 +46,7 @@ Returns limited stats, player IDs, and other information for a given team ID. Li
     ],
     "seasonAttributes":[],
     "permanentAttributes":[],
-    "_id":"23e4cbc1-e9cd-47fa-a35b-bfa06f726cb7",
+    "id":"23e4cbc1-e9cd-47fa-a35b-bfa06f726cb7",
     "fullName":"Philly Pies",
     "location":"Philly",
     "mainColor":"#399d8f",

@@ -18,7 +18,7 @@ Each division and its member teams.
       "105bc3ff-1320-4e37-8ef0-8d595cb95dd0",
       "a37f9158-7f82-46bc-908c-c9e2dda7c33b"
     ],
-    "_id": "7fbad33c-59ab-4e80-ba63-347177edaa2e",
+    "id": "7fbad33c-59ab-4e80-ba63-347177edaa2e",
     "name": "Chaotic Evil"
   },
   {
@@ -29,7 +29,7 @@ Each division and its member teams.
       "57ec08cc-0411-4643-b304-0e80dbc15ac7",
       "747b8e4a-7e50-4638-a973-ea7950a3e739"
     ],
-    "_id": "765a1e03-4101-4e8e-b611-389e71d13619",
+    "id": "765a1e03-4101-4e8e-b611-389e71d13619",
     "name": "Lawful Evil"
   },
   {
@@ -40,7 +40,7 @@ Each division and its member teams.
       "adc5b394-8f76-416d-9ce9-813706877b84",
       "ca3f1c8c-c025-4d8e-8eef-5be6accbeb16"
     ],
-    "_id": "f711d960-dc28-4ae2-9249-e1f320fec7d7",
+    "id": "f711d960-dc28-4ae2-9249-e1f320fec7d7",
     "name": "Lawful Good"
   },
   {
@@ -51,7 +51,7 @@ Each division and its member teams.
       "7966eb04-efcc-499b-8f03-d13916330531",
       "36569151-a2fb-43c1-9df7-2df512424c82"
     ],
-    "_id": "5eb2271a-3e49-48dc-b002-9cb615288836",
+    "id": "5eb2271a-3e49-48dc-b002-9cb615288836",
     "name": "Chaotic Good"
   }
 ]

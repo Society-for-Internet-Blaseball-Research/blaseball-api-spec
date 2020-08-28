@@ -11,12 +11,12 @@ Content of the ticker at the top of the Blaseball site after logging in.
 ```json
 [
   {
-    "_id": "the_discipline_era",
+    "id": "the_discipline_era",
     "__v": 0,
     "msg": "The Discipline Era has begun"
   },
   {
-    "_id": "darkness_forecast",
+    "id": "darkness_forecast",
     "msg": "THE COMMISSIONER IS DOING A GREAT JOB"
   }
 ]

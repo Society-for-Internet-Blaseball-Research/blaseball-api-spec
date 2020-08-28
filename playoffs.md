@@ -15,7 +15,7 @@ Get details about the playoffs for a season.
         "2ba38446-ec15-405f-b5e6-c9eb2ab266bc",
         "b8f24ce6-bd6b-45f5-89a8-d5372444e9e4"
     ],
-    "_id": "0e8512d6-648d-40bf-bbbd-c4e7690c9ce1",
+    "id": "0e8512d6-648d-40bf-bbbd-c4e7690c9ce1",
     "__v": 0,
     "name": "Season 3 Postseason",
     "numberOfRounds": 3,
