@@ -25,7 +25,7 @@ Information about the decrees and bonuses that passed
     "decreeResults": [
         "b090fdfc-7d9d-414b-a4a5-bbc698028c15"
     ],
-    "_id": "dfb49299-a2cc-40b4-b1c3-f4444beb7336",
+    "id": "dfb49299-a2cc-40b4-b1c3-f4444beb7336",
     "__v": 0,
     "name": "The Season 1 Election",
     "season": 0,

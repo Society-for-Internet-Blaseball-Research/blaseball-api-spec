@@ -11,7 +11,7 @@ What happened as the result of a specific bonus.
 ```json
 [
     {
-        "_id": "7ce7eeb6-6abb-461c-b506-c10983e708a4",
+        "id": "7ce7eeb6-6abb-461c-b506-c10983e708a4",
         "bonusId": "max_random_player",
         "bonusTitle": "Bloodlust",
         "userId": "91aed555-1d2f-4baf-ad7f-501169fdb2e9",
@@ -23,7 +23,7 @@ What happened as the result of a specific bonus.
         "highestTeamVotes": 1017
     },
     {
-        "_id": "df254f3d-3690-4417-bd6f-be2a231a7c25",
+        "id": "df254f3d-3690-4417-bd6f-be2a231a7c25",
         "bonusId": "send_worst_hitter",
         "bonusTitle": "Exile",
         "userId": "1fce6956-c442-4c19-b88e-7de644fbdc31",
@@ -35,7 +35,7 @@ What happened as the result of a specific bonus.
         "highestTeamVotes": 1282
     },
     {
-        "_id": "f484ba2e-acbe-4b8f-bbe9-b361374afba7",
+        "id": "f484ba2e-acbe-4b8f-bbe9-b361374afba7",
         "bonusId": "send_worst_pitcher",
         "bonusTitle": "Go Away",
         "userId": "fb1babbf-184d-408b-b505-ccf501d25175",

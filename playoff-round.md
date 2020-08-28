@@ -64,7 +64,7 @@ Information about a specific round in the playoffs.
         0,
         1
     ],
-    "_id": "aecb79df-5f61-40c1-a244-8a42268f2e4c",
+    "id": "aecb79df-5f61-40c1-a244-8a42268f2e4c",
     "__v": 0,
     "gameIndex": 4,
     "name": "Round 1",

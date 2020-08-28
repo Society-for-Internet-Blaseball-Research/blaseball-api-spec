@@ -11,7 +11,7 @@ Returns individual player stats for a given player ID. More IDs can be added, se
 ```json
 [
     {
-        "_id": "17397256-c28c-4cad-85f2-a21768c66e67",
+        "id": "17397256-c28c-4cad-85f2-a21768c66e67",
         "anticapitalism": 0.3865984034527832,
         "baseThirst": 0.8163297863171528,
         "buoyancy": 0.7295030935858079,
