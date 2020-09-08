@@ -1,10 +1,10 @@
-# Bonus Results
+# Blessing (bonus) Results
 
-What happened as the result of a specific bonus.
+An array of the results for specific blessings/bonuses.
 
 ## Endpoint
 
-`https://blaseball.com/database/bonusResults?ids=:id1,:id2,...`
+`https://www.blaseball.com/database/bonusResults?ids=:id1,:id2,...`
 
 ## Response
 
@@ -51,20 +51,22 @@ What happened as the result of a specific bonus.
 
 ## Field Descriptions
 
-**`bonusId`**: The name id of the bonus.
+**`id`**: The hexadecimal ID of the blessing/bonus.
+
+**`bonusId`**: The name id of the blessing/bonus.
 
 **`bonusTitle`**: The title displayed on the elections page.
 
 **`userId`**: Unknown
 
-**`teamId`**: Team that got the bonus
+**`teamId`**: Team that got the blessing/bonus
 
-**`totalVotes`**: How many votes this bonus got.
+**`totalVotes`**: How many votes this blessing/bonus got.
 
-**`description`**: The description for this bonus on the elections page.
+**`description`**: The description for this blessing/bonus on the elections page.
 
-**`teamVotes`**: The number of votes from the team who got this bonus. (Added Season 2)
+**`teamVotes`**: The number of votes from the team who got this blessing/bonus. (Added Season 2)
 
-**`highestTeam`**: The team that placed the most votes on this bonus. (Added Season 2)
+**`highestTeam`**: The team that placed the most votes on this blessing/bonus. (Added Season 2)
 
-**`highestTeamVotes`**: The amount of votes by the team that voted the most on this bonus. (Added Season 2)
+**`highestTeamVotes`**: The amount of votes by the team that voted the most on this blessing/bonus. (Added Season 2)

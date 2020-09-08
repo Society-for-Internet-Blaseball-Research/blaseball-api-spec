@@ -4,12 +4,13 @@ Information about a specific round in the playoffs.
 
 ## Endpoint
 
-`https://blaseball.com/database/playoffRound?id=:id`
+`https://www.blaseball.com/database/playoffRound?id=:id`
 
 ## Response
 
 ```json
 {
+    "id": "aecb79df-5f61-40c1-a244-8a42268f2e4c",
     "matchups": [
         "6bd6170f-7383-4d0f-845e-32ec9e934abd",
         "05f17a40-b999-4411-9a48-ee309f80ac28",
@@ -64,8 +65,6 @@ Information about a specific round in the playoffs.
         0,
         1
     ],
-    "id": "aecb79df-5f61-40c1-a244-8a42268f2e4c",
-    "__v": 0,
     "gameIndex": 4,
     "name": "Round 1",
     "roundNumber": 0,
@@ -75,18 +74,20 @@ Information about a specific round in the playoffs.
 
 ## Field Descriptions
 
-**`matchups`**: List of playoff match ids (endpoint unknown?).
+**`id`**: The ID of the playoff round.
 
-**`games`**: List of lists of games.
+**`matchups`**: List of playoff matchip IDs. Can be looked up using the [playoff matchup](playoff-matchup.md) endpoint.
+
+**`games`**: A list of lists of game IDs. Each sublist represents a day in the round with the games that each pair of teams played that day.
 
 **`winners`**: Teams that won their matchups.
 
 **`winnerSeeds`**: Seeds for the winners (sometimes negative?).
 
-**`gameIndex`**: Unknown.
+**`gameIndex`**: The number of games that have been played so far (zero indexed).
 
 **`name`**: Round name.
 
-**`roundNumber`**: Round number.
+**`roundNumber`**: Round number (zero indexed).
 
 **`special`**: Currently seems to indicate final round of playoffs.

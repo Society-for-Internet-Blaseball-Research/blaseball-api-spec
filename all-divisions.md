@@ -1,10 +1,10 @@
 # All Divisions
 
-Each division and its member teams.
+Returns a list of each division and its member teams.
 
 ## Endpoint
 
-`https://blaseball.com/database/allDivisions`
+`https://www.blaseball.com/database/allDivisions`
 
 ## Response
 
@@ -59,6 +59,8 @@ Each division and its member teams.
 
 ## Field Descriptions
 
-**`teams`**: The IDs of the teams that belong to the division.
+**`teams`**: An array of IDs of the teams from each division.
+
+**`id`**: The ID of the division.
 
 **`name`**: The name of the division.
