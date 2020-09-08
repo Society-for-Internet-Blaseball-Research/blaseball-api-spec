@@ -1,6 +1,6 @@
 # Single Game Statsheet
 
-## DEPRECIATED
+## Deprecated
 
 **DO NOT USE THIS ENDPOINT**. Use the [game statsheet](game-statsheet.md) endpoint instead. This endpoint can only fetch the statsheet for a single player and using it repeatedly would cause unnecessary load on the Blaseball servers.
 

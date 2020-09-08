@@ -1,6 +1,6 @@
 # Single Team Statsheet
 
-## DEPRECIATED
+## Deprecated
 
 **DO NOT USE THIS ENDPOINT**. Use the [team statsheet](team-statsheet.md) endpoint instead. This endpoint can only fetch the statsheet for a single team and using it repeatedly would cause unnecessary load on the Blaseball servers.
 

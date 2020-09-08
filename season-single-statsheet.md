@@ -1,6 +1,6 @@
 # Single Season Statsheet
 
-## DEPRECIATED
+## Deprecated
 
 **DO NOT USE THIS ENDPOINT**. Use the [season statsheet](season-statsheet.md) endpoint instead. This endpoint can only fetch the statsheet for a single season and using it repeatedly would cause unnecessary load on the Blaseball servers.
 
