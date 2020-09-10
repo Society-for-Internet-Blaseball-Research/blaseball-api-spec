@@ -4,7 +4,7 @@ What happened as the result of a specific decree.
 
 ## Endpoint
 
-`https://blaseball.com/database/decreeResults?ids=:id1,id2,...`
+`https://www.blaseball.com/database/decreeResults?ids=:id1,id2,...`
 
 ## Response
 
@@ -28,6 +28,8 @@ What happened as the result of a specific decree.
 ```
 
 ## Field Descriptions
+
+**`id`**: The hexadecimal id of the decree.
 
 **`decreeId`**: The name id of the decree.
 

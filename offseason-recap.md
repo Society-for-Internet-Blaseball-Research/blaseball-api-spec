@@ -1,10 +1,10 @@
-# Offseason Recap
+# Election Recap
 
-Information about the decrees and bonuses that passed
+Information about the decrees and bonuses that passed for a given season number (zero indexed).
 
 ## Endpoint
 
-`https://blaseball.com/database/offseasonRecap?season=:season`
+`https://www.blaseball.com/database/offseasonRecap?season=:season`
 
 ## Response
 
@@ -26,7 +26,6 @@ Information about the decrees and bonuses that passed
         "b090fdfc-7d9d-414b-a4a5-bbc698028c15"
     ],
     "id": "dfb49299-a2cc-40b4-b1c3-f4444beb7336",
-    "__v": 0,
     "name": "The Season 1 Election",
     "season": 0,
     "totalBonusVotes": 1295,
@@ -37,15 +36,17 @@ Information about the decrees and bonuses that passed
 
 ## Field Descriptions
 
+**`id`**: The id for the offseason recap object.
+
 **`bonusResults`**: List of the season's bonuses (in Season 1 only, two of the bonuses are not uuids but instead the bonus id as from the Offseason Setup endpoint).
 
 **`decreeResults`**: List of the decrees that passed.
 
-**`name`**: The name of the season.
+**`name`**: The name of the Election.
 
-**`season`**: The zero based number of the season.
+**`season`**: The season number (zero indexed).
 
-**`totalBonusVotes`**: The total number of votes for bonuses in this season.
+**`totalBonusVotes`**: The total number of votes for blessings/bonuses this season.
 
 **`totalDecreeVotes`**: The total number of votes for decrees this season.
 

@@ -1,43 +1,44 @@
 # Playoffs
 
-Get details about the playoffs for a season.
+Get details about the playoffs for a given season number (zero indexed).
 
 ## Endpoint
 
-`https://blaseball.com/database/playoffs?number=:season`
+`https://www.blaseball.com/database/playoffs?number=:season`
 
 ## Response
 
 ```json
 {
-    "rounds": [
-        "aecb79df-5f61-40c1-a244-8a42268f2e4c",
-        "2ba38446-ec15-405f-b5e6-c9eb2ab266bc",
-        "b8f24ce6-bd6b-45f5-89a8-d5372444e9e4"
-    ],
-    "id": "0e8512d6-648d-40bf-bbbd-c4e7690c9ce1",
-    "__v": 0,
-    "name": "Season 3 Postseason",
-    "numberOfRounds": 3,
-    "playoffDay": 13,
-    "season": 2,
-    "tomorrowRound": 2,
-    "winner": "747b8e4a-7e50-4638-a973-ea7950a3e739"
+  "id": "d30b9002-6e9d-4c31-bb86-68b69ad32a75",
+  "name": "Season 4 Postseason",
+  "numberOfRounds": 3,
+  "playoffDay": 12,
+  "rounds": [
+    "b435ba04-dd90-4454-a123-6bd10989a6eb",
+    "def46e3e-3cec-410c-985d-4decef431eb6",
+    "a46cf811-3202-4d5d-98aa-c8965337702c"
+  ],
+  "season": 3,
+  "tomorrowRound": 2,
+  "winner": "747b8e4a-7e50-4638-a973-ea7950a3e739"
 }
 ```
 
 ## Field Descriptions
 
-**`rounds`**: List of playoff rounds.
+**`id`**: The id for the playoff object
 
-**`name`**: Name of the playoffs.
+**`name`**: The name of the playoffs.
 
 **`numberOfRounds`**: Number of rounds in the playoffs.
 
-**`playoffDay`**: Current day of the playoffs.
+**`playoffDay`**: Current day of the playoffs (zero indexed).
 
-**`season`**: Season number.
+**`rounds`**: A list of round IDs that can be looked up using the [playoff round](playoff-round.md) endpoint.
 
-**`tomorrowRound`**: Index in rounds.
+**`season`**: The season number for the playoffs (zero indexed).
 
-**`winner`**: Team that won the playoffs.
+**`tomorrowRound`**: The index of tomorrow's round in rounds.
+
+**`winner`**: The ID of the team that won the playoffs.

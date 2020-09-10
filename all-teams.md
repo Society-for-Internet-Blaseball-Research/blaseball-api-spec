@@ -4,105 +4,70 @@ Returns a list of team definitions for every team in the league.
 
 ## Endpoint
 
-`https://blaseball.com/database/allTeams`
+`https://www.blaseball.com/database/allTeams`
 
 ## Response
 
-```json
+```javascript
 [
   {
-    "lineup": [
-      "2f3d7bc7-6ffb-40c3-a94f-5e626be413c9",
-      "4941976e-31fc-49b5-801a-18abe072178b",
-      "57448b62-f952-40e2-820c-48d8afe0f64d",
-      "b3d518b9-dc68-4902-b68c-0022ceb25aa0",
-      "8a6fc67d-a7fe-443b-a084-744294cec647",
-      "3a96d76a-c508-45a0-94a0-8f64cd6beeb4",
-      "1e8b09bd-fbdd-444e-bd7e-10326bd57156",
-      "c0732e36-3731-4f1a-abdc-daa9563b6506",
-      "9ac2e7c5-5a34-4738-98d8-9f917bc6d119"
-    ],
-    "rotation": [
-      "7b55d484-6ea9-4670-8145-986cb9e32412",
-      "bd549bfe-b395-4dc0-8546-5c04c08e24a5",
-      "167751d5-210c-4a6e-9568-e92d61bab185",
-      "7158d158-e7bf-4e9b-9259-62e5b25e3de8",
-      "89ec77d8-c186-4027-bd45-f407b4800c2c"
-    ],
-    "bullpen": [
-      "a2483925-697f-468f-931c-bcd0071394e5",
-      "527c1f6e-a7e4-4447-a824-703b662bae4e",
-      "62823073-84b8-46c2-8451-28fd10dff250",
-      "805ba480-df4d-4f56-a4cf-0b99959111b5",
-      "cd6b102e-1881-4079-9a37-455038bbf10e",
-      "3954bdfa-931f-4787-b9ac-f44b72fe09d7",
-      "ccc99f2f-2feb-4f32-a9b9-c289f619d84c",
-      "fbb5291c-2438-400e-ab32-30ce1259c600"
-    ],
-    "bench": [
-      "03d06163-6f06-4817-abe5-0d14c3154236",
-      "960f041a-f795-4001-bd88-5ddcf58ee520",
-      "0bd5a3ec-e14c-45bf-8283-7bc191ae53e4"
-    ],
-    "seasonAttributes": [],
-    "permanentAttributes": [],
-    "id": "979aee4a-6d80-4863-bf1c-ee1a78e06024",
-    "fullName": "Hawaii Fridays",
-    "location": "Hawaii",
-    "mainColor": "#3ee652",
-    "nickname": "Fridays",
-    "secondaryColor": "#e67575",
-    "shorthand": "HF",
-    "emoji": "0x1F3DD",
-    "slogan": "It's Island Time!",
-    "shameRuns": 0,
-    "totalShames": 4,
-    "totalShamings": 0,
-    "seasonShames": 4,
-    "seasonShamings": 8,
-    "championships": 0
-  }
+  "id": "b72f3061-f573-40d7-832a-5ad475bd7909",
+  "lineup": [
+    "58c9e294-bd49-457c-883f-fb3162fc668e",
+    "23110c0f-2cf9-4d9c-ab2d-634f2f18867e",
+    "2b157c5c-9a6a-45a6-858f-bf4cf4cbc0bd",
+    "11de4da3-8208-43ff-a1ff-0b3480a0fbf1",
+    "126fb128-7c53-45b5-ac2b-5dbf9943d71b",
+    "cbd19e6f-3d08-4734-b23f-585330028665",
+    "ee55248b-318a-4bfb-8894-1cc70e4e0720",
+    "0eea4a48-c84b-4538-97e7-3303671934d2",
+    "bd24e18b-800d-4f15-878d-e334fb4803c4"
+  ],
+  "rotation": [
+    "3c331c87-1634-46c4-87ce-e4b9c59e2969",
+    "f2c477fb-28ea-4fcb-943a-9fab22df3da0",
+    "7c5ae357-e079-4427-a90f-97d164c7262e",
+    "73265ee3-bb35-40d1-b696-1f241a6f5966",
+    "db33a54c-3934-478f-bad4-fc313ac2580e"
+  ],
+  "bullpen": [
+    "b390b28c-df96-443e-b81f-f0104bd37860",
+    "0f62c20c-72d0-4c12-a9d7-312ea3d3bcd1",
+    "23e78d92-ee2d-498a-a99c-f40bc4c5fe99",
+    "f1185b20-7b4a-4ccc-a977-dc1afdfd4cb9",
+    "9313e41c-3bf7-436d-8bdc-013d3a1ecdeb",
+    "3be2c730-b351-43f7-a832-a5294fe8468f",
+    "e749dc27-ca3b-456e-889c-d2ec02ac7f5f",
+    "d97835fd-2e92-4698-8900-1f5abea0a3b6"
+  ],
+  "bench": [
+    "26f01324-9d1c-470b-8eaa-1b9bfbcd8b65",
+    "9f6d06d6-c616-4599-996b-ec4eefcff8b8",
+    "0e27df51-ad0c-4546-acf5-96b3cb4d7501"
+  ],
+  "seasAttr": [],
+  "permAttr": [],
+  "fullName": "San Francisco Lovers",
+  "location": "San Francisco",
+  "mainColor": "#780018",
+  "nickname": "Lovers",
+  "secondaryColor": "#212121",
+  "shorthand": "SFL",
+  "emoji": "0x1F48B",
+  "slogan": "Let's Go All The Way!",
+  "shameRuns": 0,
+  "totalShames": 24,
+  "totalShamings": 8,
+  "seasonShames": 4,
+  "seasonShamings": 5,
+  "championships": 0,
+  "weekAttr": [],
+  "gameAttr": []
+  },
+  // ... 19 other teams ...
 ]
 ```
 
 ## Field Descriptions
 
-**`lineup`**: IDs of the players on the team's fielded roster.
-
-**`rotation`**: IDs of the team's starting pitchers.
-
-**`bullpen`**: IDs of the players in the team's bullpen.
-
-**`bench`**: IDs of the players on the team's roster, but are not available in a game.
-
-**`seasonAttributes`**: The IDs of attributes assigned to the team for this season.
-
-**`permanentAttributes`**: The IDs of attributes assigned to the team permanently.
-
-**`fullName`**: The full name (location + nickname) of the team.
-
-**`location`**: The location in which the team is based.
-
-**`mainColor`**: The background color of the team's icon.
-
-**`nickname`**: The team's unique noun descriptor.
-
-**`secondaryColor`**: The foreground color of the team's icon.
-
-**`shorthand`**: The scorecard abbreviation for the team.
-
-**`emoji`**: The emoji that represents the team.
-
-**`slogan`**: The team's slogan.
-
-**`shameRuns`**: The number of runs the team has given up while shamed. To be possibly used if Enhanced Shame is decreed.
-
-**`totalShames`**: The number of times the team has been shamed across all seasons.
-
-**`totalShamings`**: The number of times the team has shamed another team across all seasons.
-
-**`seasonShames`**: The number of times the team has been shamed this season.
-
-**`seasonShamings`**: The number of times the team has shamed another team across this season.
-
-**`championships`**: The number of seasons the team has won.
+See the [teams](teams.md) page for a full desciption of all of the fields in a team.
