@@ -32,6 +32,7 @@ This is an unofficial fan project, and reflects the API to the best of our knowl
 - [All Teams](all-teams.md)
 - [Global Events](global-events.md)
 - [Standings](standings.md)
+- [Tiebreakers](tiebreakers.md)
 
 
 ### Elections
