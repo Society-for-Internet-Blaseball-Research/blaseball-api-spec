@@ -1,6 +1,6 @@
 # League Details
 
-Returns inforation for a given league ID.
+Returns information for a given league ID.
 
 ## Endpoint
 
