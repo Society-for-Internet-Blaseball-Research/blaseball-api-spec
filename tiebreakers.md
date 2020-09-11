@@ -1,4 +1,4 @@
-# Standings Details
+# Tiebreakers
 
 Returns inforation for a given tiebreaker id from the season object. Each of the ids in `order` is an id for a team object. This represents the "Divine Favor" ranking.
 
