@@ -76,7 +76,7 @@ Information about a specific round in the playoffs.
 
 **`id`**: The ID of the playoff round.
 
-**`matchups`**: List of playoff matchip IDs. Can be looked up using the [playoff matchup](playoff-matchup.md) endpoint.
+**`matchups`**: List of playoff matchup IDs. Can be looked up using the [playoff matchup](playoff-matchup.md) endpoint.
 
 **`games`**: A list of lists of game IDs. Each sublist represents a day in the round with the games that each pair of teams played that day.
 
