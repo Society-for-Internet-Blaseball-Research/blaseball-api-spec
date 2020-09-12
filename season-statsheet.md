@@ -1,10 +1,10 @@
 # Season Statsheet
 
-Get the statsheet for single or multiple seasons(s). Returns an array. Use commas to separate multiple season statsheet IDs. Just contains the latest team statsheets for each team.
+Get the statsheets for one or more seasons. Returns an array. Use commas to separate multiple season statsheet IDs. Only contains the latest team statsheets for each team.
 
 ## Endpoint
 
-`https://www.blaseball.com/database/seasonStatsheets?ids=:statsheetIds`
+`https://www.blaseball.com/database/seasonStatsheets?ids=:id1,:id2,...`
 
 ## Response
 

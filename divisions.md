@@ -1,4 +1,4 @@
-# Endpoint Name
+# Divisions
 
 Returns information for a given division ID.
 

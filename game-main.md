@@ -182,8 +182,8 @@ There are currently 4 different endpoints that return game objects, this page se
 | 6  | Acidic        | No   |
 | 7  | Solar Eclipse | Yes  |
 | 8  | Glitter       | No   |
-| 9  | Bloodwind     | No   |
+| 9  | Blooddrain    | Yes  |
 | 10 | Peanuts       | Yes  |
-| 11 | Bird          | Yes  |
+| 11 | Lots of Birds | Yes  |
 | 12 | Feedback      | Yes  |
 | 13 | Reverb        | Yes  |

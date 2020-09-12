@@ -1,12 +1,12 @@
 # Player Statsheet
 
-Get the statsheet for single or multiple player(s). Returns an array. Use commas to separate multiple player statsheet IDs.
+Get the statsheets for one or more players. Returns an array. Use commas to separate multiple player statsheet IDs.
 
-Keep in mind that a player statsheet is associated with a given game so the listed stats are only for that game.
+Keep in mind that each player statsheet is associated with a particular game, so the listed stats are only for that game.
 
 ## Endpoint
 
-`https://www.blaseball.com/database/playerSeasonStats?ids=:statsheetIds`
+`https://www.blaseball.com/database/playerSeasonStats?ids=:id1,:id2,...`
 
 ## Response
 

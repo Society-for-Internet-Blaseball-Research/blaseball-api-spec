@@ -1,10 +1,10 @@
 # Decree Results
 
-What happened as the result of a specific decree.
+Get the results of one or more decrees. Returns an array. Use commas to separate multiple decree IDs.
 
 ## Endpoint
 
-`https://www.blaseball.com/database/decreeResults?ids=:id1,id2,...`
+`https://www.blaseball.com/database/decreeResults?ids=:id1,:id2,...`
 
 ## Response
 

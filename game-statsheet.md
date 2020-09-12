@@ -1,10 +1,10 @@
 # Game Statsheet
 
-Get the statsheet for single or multiple games(s). Returns an array. Use commas to separate multiple game statsheet IDs.
+Get the statsheets for one or more games. Returns an array. Use commas to separate multiple game statsheet IDs.
 
 ## Endpoint
 
-`https://www.blaseball.com/database/gameStatsheets?ids=:statsheetIds`
+`https://www.blaseball.com/database/gameStatsheets?ids=:id1,:id2,...`
 
 ## Response
 

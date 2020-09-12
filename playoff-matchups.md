@@ -1,10 +1,10 @@
 # Playoff Matchups
 
-Information about one or multiple Matchup(s) in the playoffs. More than one ID can be specified by separating them with commas.
+Get information about one or more playoff matchups. Returns an array. Use commas to separate multiple playoff matchup IDs.
 
 ## Endpoint
 
-`https://www.blaseball.com/database/playoffMatchups?ids=:matchup_id(s)`
+`https://www.blaseball.com/database/playoffMatchups?ids=:id1,:id2,...`
 
 ## Response
 

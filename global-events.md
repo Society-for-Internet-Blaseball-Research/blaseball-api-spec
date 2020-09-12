@@ -29,4 +29,4 @@ An array of messages that make up the content of the ticker at the top of the Bl
 
 **`msg`**: The message that is displayed in the ticker.
 
-**`expires`**: Null for a semi-permenant message, or an ISO 8601 timestamp for when the message expires.
+**`expires`**: Null for a semi-permanent message, or an ISO 8601 timestamp for when the message expires.

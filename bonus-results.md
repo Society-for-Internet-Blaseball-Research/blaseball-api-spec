@@ -1,6 +1,6 @@
 # Blessing (bonus) Results
 
-An array of the results for specific blessings/bonuses.
+Get the results of one or more blessings/bonuses. Returns an array. Use commas to separate multiple blessing/bonus IDs.
 
 ## Endpoint
 

@@ -62,7 +62,8 @@ Returns a list of team definitions for every team in the league.
   "seasonShamings": 5,
   "championships": 0,
   "weekAttr": [],
-  "gameAttr": []
+  "gameAttr": [],
+  "rotationSlot": 98
   },
   // ... 19 other teams ...
 ]
