@@ -1,10 +1,10 @@
 # Players 
 
-Returns individual player stats for a given player ID. More IDs can be added, separated by commas, to get stats for more than one player.
+Get individual stats for one or more players. Returns an array. Use commas to separate multiple player IDs.
 
 ## Endpoint
 
-`https://www.blaseball.com/database/players?ids=:id`
+`https://www.blaseball.com/database/players?ids=:id1,:id2,...`
 
 ## Response
 

@@ -1,12 +1,12 @@
 # Team Statsheet
 
-Get the statsheet for the given teams. Returns an array. Use commas to separate multiple team statsheet IDs.
+Get the statsheets for one or more teams. Returns an array. Use commas to separate multiple team statsheet IDs.
 
-Keep in mind that a team statsheet is associated with a given game so the player stats are only for that game and the list of players are only those who played in that game.
+Keep in mind that a team statsheet is associated with a particular game, so the player stats are only for that game and the list of players are only those who played in that game.
 
 ## Endpoint
 
-`https://www.blaseball.com/database/teamsStatsheets?ids=:statsheetIds`
+`https://www.blaseball.com/database/teamsStatsheets?ids=:id1,:id2,...`
 
 ## Response
 
@@ -39,7 +39,7 @@ Keep in mind that a team statsheet is associated with a given game so the player
 
 **`id`**: The id for the team statsheet.
 
-**`playerStats`**: An array of IDs for each players's statsheet.
+**`playerStats`**: An array of IDs for each player's statsheet.
 
 **`gamesPlayed`**: Seems broken (always 0).
 
