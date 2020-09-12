@@ -58,6 +58,7 @@ Returns limited stats, player IDs, and other information for a given team ID. Li
   "seasonShames": 2,
   "seasonShamings": 4,
   "championships": 0,
+  "rotationSlot": 98,
   "weekAttr": [],
   "gameAttr": [],
   "seasAttr": [],
@@ -104,6 +105,8 @@ Returns limited stats, player IDs, and other information for a given team ID. Li
 **`seasonShamings`**: The number of times the team has shamed another team across this season.
 
 **`championships`**: The number of seasons the team has won.
+
+**`rotationSlot`**: Determines which member of the team's rotation is currently pitching.
 
 **`weekAttr`**: The IDs of attributes assigned to the team for this week.
 
