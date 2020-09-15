@@ -28,4 +28,4 @@ Returns information for a given league ID.
 
 **`name`**: The name of the league.
 
-**`tiebreakers`**: The ID of a tiebreaker, unclear what this is.
+**`tiebreakers`**: The ID of a tiebreaker, which lists the rank order of teams for breaking ties.
