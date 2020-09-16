@@ -42,21 +42,39 @@ Get current data about the simulation, ie day, season, time to next cycle, etc
 ## Field Descriptions
 
 **`id`**: this id is static yo.
+
 **`day`**: current day, 0-indexed
+
 **`league`**: league UUID
+
 **`nextElectionEnd`**: UTC Datetime for when the current election cycle ends.
+
 **`nextPhaseTime`**: UTC Datetime for when the simulation changes phase (ie next game day, transition from regular season to post season)
+
 **`nextSeasonStart`**: UTC Datetime for when the next season starts.
+
 **`phase`**: current simulation phase
+
 **`playOffRound`**: Current playoff round. 0-indexed, defaults 0 during regular season.
+
 **`playoffs`**: ID for current playoff object.
+
 **`rules`**: TBD
+
 **`season`**: current season, 0-indexed
+
 **`seasonId`**: current season ID
+
 **`terminology`**: TBD
+
 **`eraColor`**: hex color value for era text.
+
 **`eraTitle`**: string name of the era.
+
 **`twgo`**: initials of every player that's gotten out. RIV.
+
 **`subEraColor`**: hex color value for sub era text.
+
 **`subEraTitle`**: string name of the sub era.
+
 **`attr`**: string identifiers of simulation attributes (ie due to voting decrees)
