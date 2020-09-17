@@ -10,37 +10,37 @@ List of decrees and blessings/bonuses for the end of the current season
 
 ```json
 {
-    "decrees": [
-        {
-            "id": "confuse_good",
-            "type": 20,
-            "title": "Confuse Good",
-            "description": " "
-        },
-        {
-            "id": "confuse_evil",
-            "type": 21,
-            "title": "Confuse Evil",
-            "description": " "
-        }
-    ],
-    "blessings": [
-        {
-            "id": "item_fireproof",
-            "type": 62,
-            "value": 1,
-            "title": "Fireproof Jacket",
-            "description": "Armor. Protect a random Player on your team from Incinerations."
-        },
-        {
-            "id": "mod_team_soundproof",
-            "type": 65,
-            "value": 1,
-            "title": "Wax",
-            "description": "Your team is protected from Feedback for the following season."
-        }
-    ],
-    "decreesToPass": 1
+  "decrees": [
+    {
+      "id": "confuse_good",
+      "type": 20,
+      "title": "Confuse Good",
+      "description": " "
+    },
+    {
+      "id": "confuse_evil",
+      "type": 21,
+      "title": "Confuse Evil",
+      "description": " "
+    }
+  ],
+  "blessings": [
+    {
+      "id": "item_fireproof",
+      "type": 62,
+      "value": 1,
+      "title": "Fireproof Jacket",
+      "description": "Armor. Protect a random Player on your team from Incinerations."
+    },
+    {
+      "id": "mod_team_soundproof",
+      "type": 65,
+      "value": 1,
+      "title": "Wax",
+      "description": "Your team is protected from Feedback for the following season."
+    }
+  ],
+  "decreesToPass": 1
 }
 ```
 
