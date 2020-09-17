@@ -36,9 +36,9 @@ Information about the decrees and bonuses that passed for a given season number 
 
 ## Field Descriptions
 
-**`id`**: The id for the offseason recap object.
+**`id`**: The ID for the offseason recap object.
 
-**`bonusResults`**: List of the season's bonuses (in Season 1 only, two of the bonuses are not uuids but instead the bonus id as from the Offseason Setup endpoint).
+**`bonusResults`**: List of the season's bonuses (in Season 1 only, two of the bonuses are not uuids but instead the bonus ID as from the Offseason Setup endpoint).
 
 **`decreeResults`**: List of the decrees that passed.
 

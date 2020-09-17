@@ -26,7 +26,7 @@ Get the statsheet for a given game.
 
 ## Field Descriptions
 
-**`id`**: The id for the game statsheet.
+**`id`**: The ID for the game statsheet.
 
 **`homeTeamRunsByInning`**: An array containing the number of runs per inning.
 

@@ -25,7 +25,7 @@ An array of messages that make up the content of the ticker at the top of the Bl
 
 ## Field Descriptions
 
-**`id`**: The id of the given message.
+**`id`**: The ID of the given message.
 
 **`msg`**: The message that is displayed in the ticker.
 

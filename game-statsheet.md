@@ -22,7 +22,7 @@ Get the statsheets for one or more games. Returns an array. Use commas to separa
 
 ## Field Descriptions
 
-**`id`**: The id for the game statsheet.
+**`id`**: The ID for the game statsheet.
 
 **`homeTeamRunsByInning`**: An array containing the number of runs per inning.
 

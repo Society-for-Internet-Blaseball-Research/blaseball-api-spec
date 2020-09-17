@@ -37,7 +37,7 @@ Get the statsheet for a given team. Keep in mind that a team statsheet is associ
 
 ## Field Descriptions
 
-**`id`**: The id for the team statsheet.
+**`id`**: The ID for the team statsheet.
 
 **`playerStats`**: An array of IDs for each players's statsheet.
 

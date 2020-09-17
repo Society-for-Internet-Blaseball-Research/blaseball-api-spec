@@ -1,6 +1,6 @@
 # Standings Details
 
-Returns inforation for a given standings id from the season object.
+Returns inforation for a given standings ID from the season object.
 
 ## Endpoint
 

@@ -45,7 +45,7 @@ Keep in mind that a player statsheet is associated with a given game so the list
 
 ## Field Descriptions
 
-**`id`**: The id for the player statsheet.
+**`id`**: The ID for the player statsheet.
 
 **`playerId`**: The ID of the player.
 

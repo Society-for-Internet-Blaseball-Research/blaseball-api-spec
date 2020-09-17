@@ -38,6 +38,6 @@ Get the statsheets for one or more seasons. Returns an array. Use commas to sepa
 
 ## Field Descriptions
 
-**`id`**: The id for the season statsheet
+**`id`**: The ID for the season statsheet
 
 **`teamStats`**: An array of IDs for each team's statsheet.

@@ -27,7 +27,7 @@ Get details about the playoffs for a given season number (zero indexed).
 
 ## Field Descriptions
 
-**`id`**: The id for the playoff object
+**`id`**: The ID for the playoff object
 
 **`name`**: The name of the playoffs.
 

@@ -29,9 +29,9 @@ Get the results of one or more decrees. Returns an array. Use commas to separate
 
 ## Field Descriptions
 
-**`id`**: The hexadecimal id of the decree.
+**`id`**: The hexadecimal ID of the decree.
 
-**`decreeId`**: The name id of the decree.
+**`decreeId`**: The name ID of the decree.
 
 **`decreeTitle`**: The title displayed on the elections page.
 

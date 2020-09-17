@@ -37,7 +37,7 @@ Keep in mind that a team statsheet is associated with a particular game, so the 
 
 ## Field Descriptions
 
-**`id`**: The id for the team statsheet.
+**`id`**: The ID for the team statsheet.
 
 **`playerStats`**: An array of IDs for each player's statsheet.
 

@@ -42,6 +42,6 @@ Get the statsheet for a single season.
 
 ## Field Descriptions
 
-**`id`**: The id for the season statsheet
+**`id`**: The ID for the season statsheet
 
 **`teamStats`**: An array of IDs for each team's statsheet.

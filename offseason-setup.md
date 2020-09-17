@@ -48,7 +48,7 @@ List of decrees and blessings/bonuses for the end of the current season
 
 **`decrees`**: List of decrees.
 
-**`decrees.type`**: Integer id of the decree.
+**`decrees.type`**: Integer ID of the decree.
 
 **`decrees.title`**: The title displayed in the election page.
 
@@ -56,7 +56,7 @@ List of decrees and blessings/bonuses for the end of the current season
 
 **`bonuses`**: List of bonuses
 
-**`bonuses.type`**: Integer id of the bonus.
+**`bonuses.type`**: Integer ID of the bonus.
 
 **`bonuses.value`**: Unknown
 
