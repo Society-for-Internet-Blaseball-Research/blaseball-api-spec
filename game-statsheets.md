@@ -9,15 +9,17 @@ Get the statsheets for one or more games. Returns an array. Use commas to separa
 ## Response
 
 ```json
-{
-  "id": "cfe83059-4340-4809-adf8-bf84bce096a7",
-  "homeTeamRunsByInning": [1, 1, 1, 0, 2, 2, 0, 0],
-  "awayTeamRunsByInning": [0, 0, 0, 0, 0, 0, 0, 0, 1],
-  "awayTeamTotalBatters": 0,
-  "homeTeamTotalBatters": 0,
-  "awayTeamStats": "72f85011-327b-4510-a85b-c0f3009eebfe",
-  "homeTeamStats": "d8a5fc41-9ab3-4355-8bb0-dae297aaf958"
-}
+[
+  {
+    "id": "cfe83059-4340-4809-adf8-bf84bce096a7",
+    "homeTeamRunsByInning": [1, 1, 1, 0, 2, 2, 0, 0],
+    "awayTeamRunsByInning": [0, 0, 0, 0, 0, 0, 0, 0, 1],
+    "awayTeamTotalBatters": 0,
+    "homeTeamTotalBatters": 0,
+    "awayTeamStats": "72f85011-327b-4510-a85b-c0f3009eebfe",
+    "homeTeamStats": "d8a5fc41-9ab3-4355-8bb0-dae297aaf958"
+  }
+]
 ```
 
 ## Field Descriptions
