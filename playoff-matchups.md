@@ -4,7 +4,7 @@ Get information about one or more playoff matchups. Returns an array. Use commas
 
 ## Endpoint
 
-`https://www.blaseball.com/database/playoffMatchups?ids=:id1,:id2,...`
+`https://www.blaseball.com/database/playoffMatchups?ids=:playoff_matchup_id1,:playoff_matchup_id2,...`
 
 ## Response
 

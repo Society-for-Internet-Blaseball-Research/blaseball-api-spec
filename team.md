@@ -4,7 +4,7 @@ Returns limited stats, player IDs, and other information for a given team ID. Li
 
 ## Endpoint
 
-`https://www.blaseball.com/database/team?id=:id`
+`https://www.blaseball.com/database/team?id=:team_id`
 
 ## Response
 

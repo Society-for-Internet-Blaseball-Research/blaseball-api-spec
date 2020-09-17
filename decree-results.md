@@ -4,7 +4,7 @@ Get the results of one or more decrees. Returns an array. Use commas to separate
 
 ## Endpoint
 
-`https://www.blaseball.com/database/decreeResults?ids=:id1,:id2,...`
+`https://www.blaseball.com/database/decreeResults?ids=:decree_id1,:decree_id2,...`
 
 ## Response
 

@@ -4,7 +4,7 @@ Get the statsheets for one or more seasons. Returns an array. Use commas to sepa
 
 ## Endpoint
 
-`https://www.blaseball.com/database/seasonStatsheets?ids=:id1,:id2,...`
+`https://www.blaseball.com/database/seasonStatsheets?ids=:season_statsheet_id1,:season_statsheet_id2,...`
 
 ## Response
 

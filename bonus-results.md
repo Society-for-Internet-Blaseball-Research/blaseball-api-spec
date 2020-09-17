@@ -4,7 +4,7 @@ Get the results of one or more blessings/bonuses. Returns an array. Use commas t
 
 ## Endpoint
 
-`https://www.blaseball.com/database/bonusResults?ids=:id1,:id2,...`
+`https://www.blaseball.com/database/bonusResults?ids=:bonus_id1,:bonus_id2,...`
 
 ## Response
 

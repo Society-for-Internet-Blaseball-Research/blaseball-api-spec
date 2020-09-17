@@ -4,7 +4,7 @@ Information about a specific round in the playoffs.
 
 ## Endpoint
 
-`https://www.blaseball.com/database/playoffRound?id=:id`
+`https://www.blaseball.com/database/playoffRound?id=:playoff_round_id`
 
 ## Response
 

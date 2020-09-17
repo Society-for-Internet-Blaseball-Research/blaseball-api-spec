@@ -4,7 +4,7 @@ Get details about the playoffs for a given season number (zero indexed).
 
 ## Endpoint
 
-`https://www.blaseball.com/database/playoffs?number=:season`
+`https://www.blaseball.com/database/playoffs?number=:season_number`
 
 ## Response
 

@@ -6,7 +6,7 @@ Keep in mind that each player statsheet is associated with a particular game, so
 
 ## Endpoint
 
-`https://www.blaseball.com/database/playerSeasonStats?ids=:id1,:id2,...`
+`https://www.blaseball.com/database/playerSeasonStats?ids=:player_statsheet_id1,:player_statsheet_id2,...`
 
 ## Response
 

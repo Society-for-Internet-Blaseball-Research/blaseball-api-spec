@@ -4,7 +4,7 @@ Get individual stats for one or more players. Returns an array. Use commas to se
 
 ## Endpoint
 
-`https://www.blaseball.com/database/players?ids=:id1,:id2,...`
+`https://www.blaseball.com/database/players?ids=:player_id1,:player_id2,...`
 
 ## Response
 

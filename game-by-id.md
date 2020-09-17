@@ -4,7 +4,7 @@ Returns the last broadcast game update for a given game ID. Completed games will
 
 ## Endpoint
 
-`https://www.blaseball.com/database/gameById/:id`
+`https://www.blaseball.com/database/gameById/:game_id`
 
 ## Response
 

@@ -4,7 +4,7 @@ Get the statsheets for one or more games. Returns an array. Use commas to separa
 
 ## Endpoint
 
-`https://www.blaseball.com/database/gameStatsheets?ids=:id1,:id2,...`
+`https://www.blaseball.com/database/gameStatsheets?ids=:game_statsheet_id1,:game_statsheet_id2,...`
 
 ## Response
 

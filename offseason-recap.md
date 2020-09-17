@@ -4,7 +4,7 @@ Information about the decrees and bonuses that passed for a given season number 
 
 ## Endpoint
 
-`https://www.blaseball.com/database/offseasonRecap?season=:season`
+`https://www.blaseball.com/database/offseasonRecap?season=:season_number`
 
 ## Response
 

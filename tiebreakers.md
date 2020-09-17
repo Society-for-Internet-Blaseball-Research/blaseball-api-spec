@@ -4,7 +4,7 @@ Returns inforation for a given tiebreaker ID from the league object. Each of the
 
 ## Endpoint
 
-`https://www.blaseball.com/database/tiebreakers?id=:tiebreakers_id`
+`https://www.blaseball.com/database/tiebreakers?id=:tiebreaker_id`
 
 ## Response
 
