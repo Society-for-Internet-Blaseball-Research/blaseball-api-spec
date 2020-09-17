@@ -8,22 +8,22 @@ This is an unofficial fan project, and reflects the API to the best of our knowl
 
 ### Live Data
 
-- [Data Stream](streamData.md)
+- [Data Stream Details](stream-data.md)
 
 
 ### Objects
 
-- [Leagues](leagues.md)
-- [Subleagues](subleagues.md)
-- [Divisions](divisions.md)
-- [Teams](teams.md)
+- [League Details](league.md)
+- [Subleague Details](subleague.md)
+- [Division](division.md)
+- [Team Details](team.md)
 - [Players](players.md)
-- [Seasons](seasons.md)
+- [Season Details](season.md)
 - [Game by Date](game-by-date.md)
 - [Game by ID](game-by-id.md)
 - [Playoffs](playoffs.md)
 - [Playoff Round](playoff-round.md)
-- [Playoff Matchups](playoff-matchups)
+- [Playoff Matchups](playoff-matchups.md)
 
 
 ### Summaries
@@ -32,7 +32,7 @@ This is an unofficial fan project, and reflects the API to the best of our knowl
 - [All Teams](all-teams.md)
 - [Global Events](global-events.md)
 - [Standings](standings.md)
-- [Tiebreakers](tiebreakers.md)
+- [Tiebreaker Details](tiebreakers.md)
 
 
 ### Elections
@@ -45,7 +45,7 @@ This is an unofficial fan project, and reflects the API to the best of our knowl
 
 ### Statsheets
 
-- [Season Statsheets](season-statsheet.md)
-- [Game Statsheets](game-statsheet.md)
-- [Team Statsheets](team-statsheet.md)
-- [Player Statsheets](player-statsheet.md)
+- [Season Statsheets](season-statsheets.md)
+- [Game Statsheets](game-statsheets.md)
+- [Team Statsheets](team-statsheets.md)
+- [Player Statsheets](player-statsheets.md)

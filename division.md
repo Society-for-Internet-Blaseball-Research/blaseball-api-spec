@@ -1,4 +1,4 @@
-# Divisions
+# Division
 
 Returns information for a given division ID.
 

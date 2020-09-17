@@ -1,6 +1,6 @@
-# Tiebreakers Details
+# Tiebreaker Details
 
-Returns inforation for a given tiebreaker ID from the league object. Each of the ids in `order` is an ID for a team object. This represents the "Divine Favor" ranking.
+Returns inforation for a given tiebreaker ID from the league object. Each of the ids in `order` is an ID for a team object. This represents the "Divine Favor" ranking. (Note: the tiebreaker object is returned inside a single-element array, even though the endpoint's argument only accepts one ID.)
 
 ## Endpoint
 

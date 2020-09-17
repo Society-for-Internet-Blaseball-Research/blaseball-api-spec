@@ -83,7 +83,7 @@ There are currently 4 different endpoints that return game objects, this page se
 
 **`rules`**: The ID of the rules for the game. Unknown what this ID goes to.
 
-**`statsheet`**: The ID of the statsheet for the game. Goes to the [game statsheet](game-statsheet.md) endpoint.
+**`statsheet`**: The ID of the statsheet for the game. Goes to the [game statsheet](game-statsheets.md) endpoint.
 
 **`awayPitcher`**: The ID of the current pitcher for the away team.
 

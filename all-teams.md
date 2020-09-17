@@ -71,4 +71,4 @@ Returns a list of team definitions for every team in the league.
 
 ## Field Descriptions
 
-See the [teams](teams.md) page for a full desciption of all of the fields in a team.
+See the [team details](team.md) page for a full desciption of all of the fields in a team.

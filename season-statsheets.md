@@ -1,4 +1,4 @@
-# Season Statsheet
+# Season Statsheets
 
 Get the statsheets for one or more seasons. Returns an array. Use commas to separate multiple season statsheet IDs. Only contains the latest team statsheets for each team.
 

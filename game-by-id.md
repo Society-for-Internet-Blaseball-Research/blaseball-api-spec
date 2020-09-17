@@ -8,4 +8,4 @@ Returns the last broadcast game update for a given game ID. Completed games will
 
 ## Response
 
-Returns a single game update object. See the [game update](game-main.md) page for a centralized definition of what a game update contains.
+Returns a single game update object. See the [game update](game-object.md) page for a centralized definition of what a game update contains.

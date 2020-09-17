@@ -35,6 +35,6 @@ Returns inforation for a given season number (zero indexed).
 
 **`standings`**: The ID of the standings for the season. Goes to the [standings](standings.md) endpoint.
 
-**`stats`**: The ID of the statsheet for the season. Goes to the [season statsheet](season-statsheet.md) endpoint.
+**`stats`**: The ID of the statsheet for the season. Goes to the [season statsheets](season-statsheets.md) endpoint.
 
 **`terminology`**: The ID of the terminology for the season. Unknown what this ID goes to.

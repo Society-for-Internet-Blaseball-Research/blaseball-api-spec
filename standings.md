@@ -1,4 +1,4 @@
-# Standings Details
+# Standings
 
 Returns inforation for a given standings ID from the season object.
 

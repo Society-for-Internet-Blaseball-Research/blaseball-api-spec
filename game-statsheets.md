@@ -1,4 +1,4 @@
-# Game Statsheet
+# Game Statsheets
 
 Get the statsheets for one or more games. Returns an array. Use commas to separate multiple game statsheet IDs.
 

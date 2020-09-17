@@ -1,4 +1,4 @@
-# Player Statsheet
+# Player Statsheets
 
 Get the statsheets for one or more players. Returns an array. Use commas to separate multiple player statsheet IDs.
 

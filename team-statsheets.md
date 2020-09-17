@@ -1,4 +1,4 @@
-# Team Statsheet
+# Team Statsheets
 
 Get the statsheets for one or more teams. Returns an array. Use commas to separate multiple team statsheet IDs.
 
