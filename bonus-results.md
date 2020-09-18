@@ -1,6 +1,6 @@
-# Blessing (bonus) Results
+# Bonus (blessing) Results
 
-Get the results of one or more blessings/bonuses. Returns an array. Use commas to separate multiple blessing/bonus IDs.
+Get the results of one or more bonuses (blessings). Returns an array. Use commas to separate multiple bonus IDs.
 
 ## Endpoint
 
@@ -48,20 +48,20 @@ Get the results of one or more blessings/bonuses. Returns an array. Use commas t
 
 ## Field Descriptions
 
-**`id`**: The hexadecimal ID of the blessing/bonus.
+**`id`**: The hexadecimal ID of the bonus.
 
-**`bonusId`**: The name ID of the blessing/bonus.
+**`bonusId`**: The name ID of the bonus.
 
 **`bonusTitle`**: The title displayed on the elections page.
 
-**`teamId`**: Team that got the blessing/bonus.
+**`teamId`**: Team that got the bonus.
 
-**`totalVotes`**: How many votes this blessing/bonus got.
+**`totalVotes`**: How many votes this bonus got.
 
-**`description`**: The description for this blessing/bonus on the elections page.
+**`description`**: The description for this bonus on the elections page.
 
-**`teamVotes`**: The number of votes from the team who got this blessing/bonus. (Added Season 2)
+**`highestTeam`**: The team that placed the most votes on this bonus. (Added Season 2)
 
-**`highestTeam`**: The team that placed the most votes on this blessing/bonus. (Added Season 2)
+**`highestTeamVotes`**: The amount of votes by the team that voted the most on this bonus. (Added Season 2)
 
-**`highestTeamVotes`**: The amount of votes by the team that voted the most on this blessing/bonus. (Added Season 2)
+**`teamVotes`**: The number of votes from the team who got this bonus. (Added Season 2)

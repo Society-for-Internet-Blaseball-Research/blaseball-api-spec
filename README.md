@@ -37,7 +37,7 @@ This is an unofficial fan project, and reflects the API to the best of our knowl
 
 ### Elections
 
-- [Blessing Results](bonus-results.md)
+- [Bonus (blessing) Results](bonus-results.md)
 - [Decree Results](decree-results.md)
 - [Election Recap](offseason-recap.md)
 - [Election Details](offseason-setup.md)
