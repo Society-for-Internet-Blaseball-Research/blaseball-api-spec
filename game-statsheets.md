@@ -28,7 +28,7 @@ Get the statsheets for one or more games. Returns an array. Use commas to separa
 
 **`homeTeamRunsByInning`**: An array containing the number of runs per inning.
 
-**`homeTeamRunsByInning`**: An array containing the number of runs per inning.
+**`awayTeamRunsByInning`**: An array containing the number of runs per inning.
 
 **`awayTeamTotalBatters`**: Seems broken (always 0).
 

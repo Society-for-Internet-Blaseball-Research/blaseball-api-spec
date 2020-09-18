@@ -47,7 +47,7 @@ Keep in mind that each player statsheet is associated with a particular game, so
 
 **`playerId`**: The ID of the player.
 
-**`teamId`**: An array containing the number of runs per inning.
+**`teamId`**: The ID of the team the player is on.
 
 **`team`**: The name of the team the player is on.
 
