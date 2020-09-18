@@ -24,6 +24,7 @@ This is an unofficial fan project, and reflects the API to the best of our knowl
 - [Playoffs](playoffs.md)
 - [Playoff Round](playoff-round.md)
 - [Playoff Matchups](playoff-matchups.md)
+- [Simulation Data](simulation-data.md)
 
 
 ### Summaries
