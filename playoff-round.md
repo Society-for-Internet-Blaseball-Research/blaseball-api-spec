@@ -11,12 +11,7 @@ Information about a specific round in the playoffs.
 ```json
 {
   "id": "aecb79df-5f61-40c1-a244-8a42268f2e4c",
-  "matchups": [
-    "6bd6170f-7383-4d0f-845e-32ec9e934abd",
-    "05f17a40-b999-4411-9a48-ee309f80ac28",
-    "39f6e865-73e5-46c3-b9a9-3e846e7898db",
-    "7cc52df5-1e20-417b-9915-cd62c534182a"
-  ],
+  "gameIndex": 4,
   "games": [
     [
       "c0080509-f1f6-4b86-9c31-88abf157e283",
@@ -53,22 +48,27 @@ Information about a specific round in the playoffs.
       "86d68a1c-4106-47f6-aca1-1b1abfcd0ef4"
     ]
   ],
-  "winners": [
-    "36569151-a2fb-43c1-9df7-2df512424c82",
-    "b72f3061-f573-40d7-832a-5ad475bd7909",
-    "747b8e4a-7e50-4638-a973-ea7950a3e739",
-    "23e4cbc1-e9cd-47fa-a35b-bfa06f726cb7"
+  "matchups": [
+    "6bd6170f-7383-4d0f-845e-32ec9e934abd",
+    "05f17a40-b999-4411-9a48-ee309f80ac28",
+    "39f6e865-73e5-46c3-b9a9-3e846e7898db",
+    "7cc52df5-1e20-417b-9915-cd62c534182a"
   ],
+  "name": "Round 1",
+  "roundNumber": 0,
+  "special": false,
   "winnerSeeds": [
     0,
     2,
     0,
     1
   ],
-  "gameIndex": 4,
-  "name": "Round 1",
-  "roundNumber": 0,
-  "special": false
+  "winners": [
+    "36569151-a2fb-43c1-9df7-2df512424c82",
+    "b72f3061-f573-40d7-832a-5ad475bd7909",
+    "747b8e4a-7e50-4638-a973-ea7950a3e739",
+    "23e4cbc1-e9cd-47fa-a35b-bfa06f726cb7"
+  ]
 }
 ```
 
@@ -76,18 +76,18 @@ Information about a specific round in the playoffs.
 
 **`id`**: The ID of the playoff round.
 
-**`matchups`**: List of playoff matchup IDs. Can be looked up using the [playoff matchups](playoff-matchups.md) endpoint.
+**`gameIndex`**: The number of games that have been played so far (zero indexed).
 
 **`games`**: A list of lists of game IDs. Each sublist represents a day in the round with the games that each pair of teams played that day.
 
-**`winners`**: Teams that won their matchups.
-
-**`winnerSeeds`**: Seeds for the winners (sometimes negative?).
-
-**`gameIndex`**: The number of games that have been played so far (zero indexed).
+**`matchups`**: List of playoff matchup IDs. Can be looked up using the [playoff matchups](playoff-matchups.md) endpoint.
 
 **`name`**: Round name.
 
 **`roundNumber`**: Round number (zero indexed).
 
 **`special`**: Currently seems to indicate final round of playoffs.
+
+**`winnerSeeds`**: Seeds for the winners (sometimes negative?).
+
+**`winners`**: Teams that won their matchups.
