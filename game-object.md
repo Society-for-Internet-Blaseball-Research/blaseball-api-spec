@@ -1,7 +1,6 @@
 # Game Object Details
 
-There are currently 4 different endpoints that return game objects, this page serves as a central place to define what is in a game object.
-
+There are currently 3 different endpoints that return game objects; this page serves as a central place to define the contents of a game object.
 
 ## Sample Game Object
 
@@ -11,7 +10,6 @@ There are currently 4 different endpoints that return game objects, this page se
   "basesOccupied": [],
   "baseRunners": [],
   "baseRunnerNames": [],
-  "baserunnerCount": 0,
   "outcomes": [],
   "terminology": "b67e9bbb-1495-4e1b-b517-f1444b0a6c8b",
   "lastUpdate": "Game over.",
@@ -59,7 +57,8 @@ There are currently 4 different endpoints that return game objects, this page se
   "seriesIndex": 2,
   "seriesLength": 3,
   "shame": false,
-  "weather": 7
+  "weather": 7,
+  "baserunnerCount": 0
 }
 ```
 
@@ -72,8 +71,6 @@ There are currently 4 different endpoints that return game objects, this page se
 **`baseRunners`**: A list of IDs of the players on bases. Believed to be in order or at least the same order as `basesOccupied`.
 
 **`baseRunnerNames`**: A list of names of the players on bases. Believed to be in order or at least the same order as `basesOccupied`.
-
-**`baserunnerCount`**: The number of runners currently on bases.
 
 **`outcomes`**: A list of strings corresponding to weather related events that happened this game. Currently known events include things like incineration, peanut reactions, feedback swaps, and reverb. The array is populated at the time of the event and stays populated through the end of the game.
 
@@ -89,7 +86,7 @@ There are currently 4 different endpoints that return game objects, this page se
 
 **`awayPitcherName`**: The name of the current pitcher for the away team.
 
-**`awayBatter`**: The ID of the current battter for the away team.
+**`awayBatter`**: The ID of the current batter for the away team.
 
 **`awayBatterName`**: The name of the current batter for the away team.
 
@@ -115,7 +112,7 @@ There are currently 4 different endpoints that return game objects, this page se
 
 **`homePitcherName`**: The name of the current pitcher for the home team.
 
-**`homeBatter`**: The ID of the current battter for the home team.
+**`homeBatter`**: The ID of the current batter for the home team.
 
 **`homeBatterName`**: The name of the current batter for the home team.
 
@@ -187,3 +184,5 @@ There are currently 4 different endpoints that return game objects, this page se
 | 11 | Lots of Birds | Yes  |
 | 12 | Feedback      | Yes  |
 | 13 | Reverb        | Yes  |
+
+**`baserunnerCount`**: The number of runners currently on bases.
