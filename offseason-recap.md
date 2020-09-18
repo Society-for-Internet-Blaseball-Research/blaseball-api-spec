@@ -10,6 +10,7 @@ Information about the decrees and bonuses that passed for a given season number 
 
 ```json
 {
+  "id": "dfb49299-a2cc-40b4-b1c3-f4444beb7336",
   "bonusResults": [
     "cbb567c0-d770-4d22-92f6-ff16ebb94758",
     "0d3ea692-e151-4629-8f88-d75b56107ebc",
@@ -25,7 +26,6 @@ Information about the decrees and bonuses that passed for a given season number 
   "decreeResults": [
     "b090fdfc-7d9d-414b-a4a5-bbc698028c15"
   ],
-  "id": "dfb49299-a2cc-40b4-b1c3-f4444beb7336",
   "name": "The Season 1 Election",
   "season": 0,
   "totalBonusVotes": 1295,
