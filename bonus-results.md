@@ -50,7 +50,7 @@ Get the results of one or more bonuses (blessings). Returns an array. Use commas
 
 **`id`**: The hexadecimal ID of the bonus.
 
-**`bonusId`**: The name ID of the bonus.
+**`bonusId`**: The text ID of the bonus.
 
 **`bonusTitle`**: The title displayed on the elections page.
 
