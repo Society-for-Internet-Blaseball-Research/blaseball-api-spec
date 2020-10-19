@@ -25,6 +25,8 @@ This is an unofficial fan project, and reflects the API to the best of our knowl
 - [Playoff Round](playoff-round.md)
 - [Playoff Matchups](playoff-matchups.md)
 - [Simulation Data](simulation-data.md)
+- [Idol Leaderboard](idol-leaderboard.md)
+- [Hall of Flame](hall-of-flame.md)
 
 
 ### Summaries
