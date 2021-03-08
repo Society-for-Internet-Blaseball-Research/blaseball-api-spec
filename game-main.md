@@ -7,59 +7,86 @@ There are currently 4 different endpoints that return game objects, this page se
 
 ```json
 {
-  "id": "dc767612-eb77-417b-8d2f-c21eb4dab868",
-  "basesOccupied": [],
-  "baseRunners": [],
-  "baseRunnerNames": [],
-  "baserunnerCount": 0,
-  "outcomes": [],
-  "terminology": "b67e9bbb-1495-4e1b-b517-f1444b0a6c8b",
-  "lastUpdate": "Game over.",
-  "rules": "4ae9d46a-5408-460a-84fb-cbd8d03fff6c",
-  "statsheet": "a8fd2115-7d95-42f9-8bfe-b44132da2b16",
-  "awayPitcher": "c182f33c-aea5-48a2-97ed-dc74fa29b3c0",
-  "awayPitcherName": "Swamuel Mora",
-  "awayBatter": "e4e4c17d-8128-4704-9e04-f244d4573c4d",
-  "awayBatterName": "Wesley Poole",
-  "awayTeam": "ca3f1c8c-c025-4d8e-8eef-5be6accbeb16",
-  "awayTeamName": "Chicago Firefighters",
-  "awayTeamNickname": "Firefighters",
-  "awayTeamColor": "#8c2a3e",
-  "awayTeamEmoji": "0x1F525",
-  "awayOdds": 0.5583847767978104,
-  "awayStrikes": 3,
-  "awayScore": 4,
-  "awayTeamBatterCount": 35,
-  "homePitcher": "db33a54c-3934-478f-bad4-fc313ac2580e",
-  "homePitcherName": "Percival Wheeler",
-  "homeBatter": null,
-  "homeBatterName": null,
-  "homeTeam": "b72f3061-f573-40d7-832a-5ad475bd7909",
-  "homeTeamName": "San Francisco Lovers",
-  "homeTeamNickname": "Lovers",
-  "homeTeamColor": "#780018",
-  "homeTeamEmoji": "0x1F48B",
-  "homeOdds": 0.44161522320218954,
-  "homeStrikes": 3,
-  "homeScore": 2,
-  "homeTeamBatterCount": 31,
-  "season": 1,
-  "isPostseason": false,
-  "day": 28,
-  "phase": 4,
-  "gameComplete": true,
-  "finalized": true,
-  "gameStart": true,
-  "halfInningOuts": 0,
-  "halfInningScore": 0,
-  "inning": 8,
-  "topOfInning": false,
-  "atBatBalls": 0,
-  "atBatStrikes": 0,
-  "seriesIndex": 2,
-  "seriesLength": 3,
-  "shame": false,
-  "weather": 7
+  "id":"aac86d9c-68c3-4a00-8d34-850458d79a0c",
+"basesOccupied":[],
+"baseRunners":[],
+"baseRunnerNames":[],
+"outcomes":[],
+"terminology":"b67e9bbb-1495-4e1b-b517-f1444b0a6c8b",
+"lastUpdate":"Lift 9,
+ Worms 7",
+"rules":"4ae9d46a-5408-460a-84fb-cbd8d03fff6c",
+"statsheet":"320750ed-3fde-4ac8-8e5a-a077c0a4b072",
+"awayPitcher":"ccd6068b-2735-4072-bfe5-571a5d57c285",
+"awayPitcherName":"Ephraim Ladd",
+"awayBatter":null,
+"awayBatterName":"",
+"awayTeam":"bb4a9de5-c924-4923-a0cb-9d1445f1ee5d",
+"awayTeamName":"Ohio Worms",
+"awayTeamNickname":"Worms",
+"awayTeamColor":"#5c4822",
+"awayTeamEmoji":"0x1F40C",
+"awayOdds":0.4594541379293016,
+"awayStrikes":3,
+"awayScore":7,
+"awayTeamBatterCount":36,
+"homePitcher":"62ae6aa9-e346-4faa-b07c-1f7623580015",
+"homePitcherName":"Gerund Pantheocide",
+"homeBatter":null,
+"homeBatterName":"",
+"homeTeam":"c73b705c-40ad-4633-a6ed-d357ee2e2bcf",
+"homeTeamName":"Tokyo Lift",
+"homeTeamNickname":"Lift",
+"homeTeamColor":"#e830ab",
+"homeTeamEmoji":"🏋️‍♀️",
+"homeOdds":0.5405458620706983,
+"homeStrikes":3,
+"homeScore":9,
+"homeTeamBatterCount":46,
+"season":12,
+"isPostseason":false,
+"day":0,
+"phase":7,
+"gameComplete":true,
+"finalized":true,
+"gameStart":true,
+"halfInningOuts":0,
+"halfInningScore":0,
+"inning":8,
+"topOfInning":true,
+"atBatBalls":0,
+"atBatStrikes":0,
+"seriesIndex":1,
+"seriesLength":3,
+"shame":false,
+"weather":11,
+"baserunnerCount":0,
+"homeBases":4,
+"awayBases":4,
+"repeatCount":0,
+"awayTeamSecondaryColor":"#ba9c65",
+"homeTeamSecondaryColor":"#e830ab",
+"homeBalls":4,
+"awayBalls":4,
+"homeOuts":3,
+"awayOuts":3,
+"playCount":390,
+"tournament":-1,
+"baseRunnerMods":[],
+"homePitcherMod":"",
+"homeBatterMod":"",
+"awayPitcherMod":"",
+"awayBatterMod":"",
+"scoreUpdate":"",
+"scoreLedger":"",
+"stadiumId":null,
+"secretBaserunner":null,
+"topInningScore":0,
+"bottomInningScore":0,
+"newInningPhase":-1,
+"gameStartPhase":18,
+"isTitleMatch":false
+
 }
 ```
 
@@ -174,7 +201,7 @@ There are currently 4 different endpoints that return game objects, this page se
 | Number  | Weather  | Seen |
 | -- | ------------- | ---- |
 | 0  | Void          | No   |
-| 1  | Sunny         | Yes  |
+| 1  | Sun 2         | Yes  |
 | 2  | Overcast      | No   |
 | 3  | Rainy         | No   |
 | 4  | Sandstorm     | No   |
@@ -187,3 +214,64 @@ There are currently 4 different endpoints that return game objects, this page se
 | 11 | Lots of Birds | Yes  |
 | 12 | Feedback      | Yes  |
 | 13 | Reverb        | Yes  |
+| 14 | Black Hole    | Yes  |
+| 15 | Coffee        | Yes  |
+| 16 | Coffee 2      | Yes  |
+| 17 | Coffee 3s     | Yes  |
+| 18 | Flooding      | Yes  |
+| 19 | ???           | No   |
+| 20 | ???           | No   |
+| 21 | ???           | No   |
+| 22 | ???           | No   |
+
+
+**`homeBases`**: Number of bases the home team will run while batting
+
+**`awayBases`**: Number of bases the away team will run while batting
+
+**`repeatCount`**: ?
+
+**`awayTeamSecondaryColor`**: An alternate color for the away team
+
+**`homeTeamSecondaryColor`**: An alternate color for the home team
+
+**`homeBalls`**: Number of balls per at bat for the home team
+
+**`awayBalls`**: Number of balls per at bat for the away team
+
+**`homeOuts`**: Number of outs per inning for the home team
+
+**`awayOuts`**: Number of outs per inning for the away team
+
+**`playCount`**: Number of plays in the game (updates)
+
+**`tournament`**: a boolean indicating if this is a tournament game
+
+**`baseRunnerMods`**: List of modifiers on the baserunners
+
+**`homePitcherMod`**: Modifier on home pitcher
+
+**`homeBatterMod`**: Modifier on home batter
+
+**`awayPitcherMod`**: Modifier on away pitcher
+
+**`awayBatterMod`**: Modifier on away batter
+
+**`scoreUpdate`**: ?
+
+**`scoreLedger`**: ?
+
+**`stadiumId`**: Id of the stadium in which this game is played
+
+**`secretBaserunner`**: ?
+
+**`topInningScore`**: Score in the current or latest top half of inning
+
+**`bottomInningScore`**: Score in the current or latest bottom half of inning
+
+**`newInningPhase`**: ?
+
+**`gameStartPhase`**: ?
+
+**`isTitleMatch`**: A boolean indicating whether this game is a title match
+
