@@ -27,6 +27,7 @@ This is an unofficial fan project, and reflects the API to the best of our knowl
 - [Simulation Data](simulation-data.md)
 - [Idol Leaderboard](idol-leaderboard.md)
 - [Hall of Flame](hall-of-flame.md)
+- [Concessions](shop-setup.md)
 
 
 ### Summaries
